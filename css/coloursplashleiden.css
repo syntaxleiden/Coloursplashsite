@@ -1,0 +1,306 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by its height */
+	margin: 0 auto -70px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+.navbar {
+	position: relative;
+	height: 80px;
+	margin-bottom: 0px;
+	border-bottom: solid 2px #333 !important;
+}
+
+.navbar-inverse {
+	background: #333;
+	border: 0px;
+	z-index: 9999;
+}
+
+.navbar-inverse .navbar-toggle {
+	margin-top: 22px;
+	border-color: #57B5E8;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+	background: #4c535c;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	border-color: #57B5E8 !important;
+	background: #57B5E8;
+}
+
+.navbar-collapse {
+	height: 78px;
+	background: #33;
+}
+
+.logo img {
+	height: 78px;
+	width: auto;
+	margin-top: -15px;
+	padding: 14px 15px;
+}
+
+.navbar .navbar-brand h1 {
+	margin: 0;
+}
+
+.navbar .navbar-brand h1 > img {
+	height: 50px;
+	width: auto;
+	margin: 0;
+}
+
+.navbar .navbar-nav {
+	margin-top: 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	font-size: 16px;
+}
+
+.navbar .navbar-nav li.active a {
+	background: #333 !important;
+	color: #4c535c !important;
+	
+}
+
+.navbar .navbar-nav li a:hover {
+	color: #000 !important;
+}
+
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #00498e;
+	border-color: #0057a8;
+}
+
+@media (min-width: 992px)
+{
+	li.dropdown:hover > .dropdown-menu {
+	  display: block;
+	}
+}
+
+li.logo a {
+	padding: 0 10px 0 10px;
+	line-height: 50px;
+}
+
+li.dropdown .glyphicon-chevron-down {
+	font-size: 11px;
+}
+
+
+.jumbotron {
+	display: none;
+	margin-top: 50px;
+	background: url(/img/hero1.jpg) no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+    background-position: center center;
+}
+
+#myCarousel {
+	height: 350px;
+	overflow: hidden;
+	
+	margin-bottom: 40px;
+	
+	box-shadow: inset 0px 0 5px rgba(0,0,0,0.7);	
+}
+
+#myCarousel .carousel-inner .item {
+	height: 350px;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+#myCarousel .carousel-inner .item .carousel-caption {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+	/*background: rgba(0,0,0,0.5);*/
+	border-radius: 15px;
+	text-align: center;
+	top: 10%;
+	bottom: inherit;
+}
+
+#myCarousel .carousel-inner .item .carousel-caption h1 {
+	/* background: rgba(0,0,0,0.6); */
+	display: inline-block;
+	padding: 10px;
+	clear: both;
+}
+
+#myCarousel .carousel-inner .item .carousel-caption p {
+	/*background: rgba(0,0,0,0.6);*/
+	display: inline-block;
+	padding: 10px;
+	clear: both;
+}
+
+#myCarousel .carousel-inner .item .carousel-caption h1 img.logo {
+	width: 220px;
+	height: 89px;
+}
+
+@media (max-width: 767px) {
+	#myCarousel .carousel-inner .item .carousel-caption img {
+		width: 70%;
+		height: auto;
+	}
+}
+
+#myCarousel .carousel-inner .item p {
+	line-height: 1.4;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+.jumbotron .container {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+	
+	background: rgba(0,0,0,0.5);
+	
+	border-radius: 15px;
+	
+	text-align: center;
+}
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-md-3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.marketing .col-md-3 .shadowbox {
+  box-shadow: 0 0 5px #eee;
+  padding: 10px;
+}
+
+.marketing .col-md-3 .shadowbox:hover {
+	box-shadow:0 0 15px #b5b5b5;
+}
+
+.marketing .col-md-3 h2 {
+	font-size: 20px;
+}
+
+.marketing .col-md-3 img {
+	width: 195px;
+	height: auto;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer #footer-container {
+	width: 960px;
+	margin: auto;
+	padding: 20px;
+	color: #FFF;
+	
+}
+
+#twitter-home {
+	overflow: hidden;
+}
+
+#twitter-home ul {
+	height: 50px;
+	list-style: none;
+}
+
+#twitter-home ul li {
+	width: 100%;
+	display: block;
+	float: left;
+	position: absolute;
+}
+
+@media (max-width: 767px) {
+	footer #footer-container {
+		width: 100%;
+	}
+	
+	#twitter-home ul {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	footer #footer-container {
+		width: 100%;
+	}
+	
+	#twitter-home ul {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	footer #footer-container {
+		width: 960px;
+	}
+	
+	#twitter-home ul {
+		width: 992px;
+	}
+}
+
+@media (min-width: 1200px) {
+	footer #footer-container {
+		width: 960px;
+	}
+	
+	#twitter-home ul {
+		width: 1200px;
+	}
+}
+
+.footer {
+	color: #dadada;
+	background: #4c535c;
+}
+.footer > .container {
+
+	padding: 20px 0;
+}
